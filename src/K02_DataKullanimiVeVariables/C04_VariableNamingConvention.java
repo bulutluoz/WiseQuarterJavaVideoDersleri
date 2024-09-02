@@ -24,6 +24,8 @@ public class C04_VariableNamingConvention {
         int ogrencininYasi = 12;
         double sinifinNotOrtalamasi = 23.5;
 
-
+        double yasOrtalamasi = 13.8;
+        yasOrtalamasi = yasOrtalamasi * 4 / 5 ;
+        System.out.println(yasOrtalamasi);
     }
 }

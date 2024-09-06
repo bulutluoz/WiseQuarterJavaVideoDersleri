@@ -10,31 +10,36 @@ public class C03_RakamlarToplaminiBulma {
         // sayinin rakamlar toplamini bulun
         // ornek input = 245  ise output = 11
 
-
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Lutfen 3 basamakli pozitif bir tamsayi giriniz");
-
-        int sayi = scanner.nextInt();
+        System.out.println("Lutfen 3 basamakli pozitif bir tamsayi giriniz...");
+        int sayi = scanner.nextInt(); // 245
+        int birlerBasamgindakiRakam = 0;
         int rakamlarToplami = 0;
 
 
-        int oAndakiSayininBirlerBasamagi = sayi % 10 ;
-        rakamlarToplami = rakamlarToplami + oAndakiSayininBirlerBasamagi;
+        birlerBasamgindakiRakam = sayi % 10;
 
-
-        sayi = sayi / 10;
-
-
-        oAndakiSayininBirlerBasamagi = sayi % 10;
-
-        rakamlarToplami = rakamlarToplami + oAndakiSayininBirlerBasamagi;
+        rakamlarToplami = rakamlarToplami + birlerBasamgindakiRakam;
 
         sayi = sayi / 10;
 
+
+        birlerBasamgindakiRakam = sayi % 10;
+
+
+        rakamlarToplami = rakamlarToplami + birlerBasamgindakiRakam;
+
+        sayi = sayi / 10;
         rakamlarToplami = rakamlarToplami + sayi;
 
 
-        System.out.println("Verilen sayinin rakamlar toplami : " + rakamlarToplami);
+        System.out.println("Girilen sayinin rakamlar toplami : " + rakamlarToplami);
+
+
+
+
+
+
 
 
 

@@ -17,5 +17,6 @@ public class C03_DikdortgenAlaniHesaplama {
         double kenar2 = scanner.nextDouble();
 
         System.out.println(  "Dikdortgenin alani : " + (kenar1*kenar2) + " metrekare"  );
+
     }
 }

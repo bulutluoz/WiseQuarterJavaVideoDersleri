@@ -60,7 +60,6 @@ public class C02_HaftaIciHaftaSonu {
             byte, short, int, char, String  OLABILIR
             boolean, long, float, double OLAMAZ
 
-
          */
     }
 }

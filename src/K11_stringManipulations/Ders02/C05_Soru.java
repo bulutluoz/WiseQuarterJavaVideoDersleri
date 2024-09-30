@@ -16,7 +16,15 @@ public class C05_Soru {
         System.out.println("Lutfen bir metin giriniz...");
         String metin = scanner.nextLine().toLowerCase();
 
-
+        if (metin.contains("ev") && metin.contains("is")) {
+            System.out.println("Evden calismak gibisi yok");
+        } else if(metin.contains("is")){
+            System.out.println("Calismak ne guzel");
+        } else  if (metin.contains("ev")){
+            System.out.println("Ev gibisi var mi?");
+        }else {
+            System.out.println("Cok calismak lazim, coook");
+        }
 
 
     }

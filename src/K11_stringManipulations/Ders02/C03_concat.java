@@ -11,8 +11,14 @@ public class C03_concat {
 
         // sadece variable'lari kullanarak "java candir 34" yazdirin
 
+        System.out.println(  s1 + s3 + s2 + s3 + sayi1 + sayi2);
+
+        System.out.println(s1.concat(s3).concat(s2).concat(s3).concat(sayi1 + "").concat(sayi2 + ""));
+
 
         // sadece variable'lari kullanarak "34 candir" yazdirin
+
+        System.out.println( "" + sayi1 + sayi2 + s3 + s2);
 
 
 

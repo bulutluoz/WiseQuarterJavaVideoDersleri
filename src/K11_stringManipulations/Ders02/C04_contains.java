@@ -11,9 +11,9 @@ public class C04_contains {
             veya metni icerip icermedigini anlamak icin kullanilir
          */
 
-        System.out.println(str.contains("a")); //
+        System.out.println(str.contains("a")); // true
 
-        System.out.println(str.contains("H")); //
+        System.out.println(str.contains("H")); // true
 
         /*
            contains method'u aranan harf veya metnin kac kere kullanildigi ile ILGILENMEZ

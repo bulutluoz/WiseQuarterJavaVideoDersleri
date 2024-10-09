@@ -14,6 +14,11 @@ public class C08_StringiTerstenYazdirma {
         String metin = scanner.nextLine();
 
 
+        for (int i = metin.length()-1  ; i >=0  ; i--) {
+
+            System.out.print(metin.charAt(i));
+        }
+
 
     }
 }

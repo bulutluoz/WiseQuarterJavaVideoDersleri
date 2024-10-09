@@ -23,6 +23,16 @@ public class C03_NestedForLoop {
         System.out.println("Lutfen sutun sayisini giriniz...");
         int sutun = scanner.nextInt();
 
+        for (int i = 1; i <=satir ; i++) { // satirlari
+
+            for (int j = 1; j <=sutun ; j++) { // her satirdaki sutunlari
+
+                System.out.print( "* "  );
+
+            }
+            System.out.println("");
+        }
+
 
     }
 }

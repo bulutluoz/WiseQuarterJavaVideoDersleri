@@ -7,7 +7,7 @@ public class C02_NestedForLoop {
     public static void main(String[] args) {
 
         /*
-            kullanicidan satir ve sutun sayisini alip asagidaki sekli cizdirin
+            kullanicidan satir ve sutun sayisini alip asagidaki sekli yazdirin
             orn satir = 4 , sutun= 5 oldugunda
              2 3 4 5 6
              3 4 5 6 7
@@ -22,6 +22,17 @@ public class C02_NestedForLoop {
 
         System.out.println("Lutfen sutun sayisini giriniz...");
         int sutun = scanner.nextInt();
+
+        for (int i = 1; i <=satir ; i++) { // satirlar
+
+            for (int j = 1; j <=sutun ; j++) { // her satirdaki sutun
+
+                System.out.print(i+j + " ");
+
+            }
+            System.out.println("");
+
+        }
 
 
 

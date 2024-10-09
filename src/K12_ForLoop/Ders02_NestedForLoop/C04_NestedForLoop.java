@@ -23,6 +23,16 @@ public class C04_NestedForLoop {
         int satir = scanner.nextInt();
 
 
+        for (int i = 1; i <=satir ; i++) { // satirlari
+
+            for (int j = 1; j <= i ; j++) { // her satirdaki sutunlari
+
+                System.out.print( "* ");
+            }
+
+            System.out.println("");
+
+        }
 
     }
 }

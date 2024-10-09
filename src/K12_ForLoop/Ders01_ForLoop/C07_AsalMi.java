@@ -14,5 +14,21 @@ public class C07_AsalMi {
         int sayi = scanner.nextInt();
 
 
+        for (int i = 2; i < sayi ; i++) {
+
+
+            if (sayi % i == 0){
+                System.out.println("Asal degil");
+                break;
+            }
+
+            if (i == sayi-1){
+
+                System.out.println("Sayi asal");
+            }
+
+        }
+
+
     }
 }

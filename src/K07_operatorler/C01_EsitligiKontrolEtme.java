@@ -1,4 +1,4 @@
-package K07_Operatorler;
+package K07_operatorler;
 
 public class C01_EsitligiKontrolEtme {
 

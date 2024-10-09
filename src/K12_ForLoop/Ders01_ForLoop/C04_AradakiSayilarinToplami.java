@@ -18,6 +18,27 @@ public class C04_AradakiSayilarinToplami {
         System.out.println("bitis degeri olarak pozitif tamsayi giriniz...");
         int bitis = scanner.nextInt();
 
+        int toplam = 0;
+
+        if (baslangic < bitis ){
+
+            for (int i = baslangic; i <= bitis ; i++) {
+
+                toplam += i;
+            }
+        }else {
+
+            for (int i = baslangic; i >= bitis ; i-- ) {
+
+                toplam += i;
+            }
+
+
+        }
+
+        System.out.println(baslangic + " ile "+ bitis + " sayilari dahil olarak aralarindaki tamsayilarin toplami : " + toplam);
+
+
     }
 
 }

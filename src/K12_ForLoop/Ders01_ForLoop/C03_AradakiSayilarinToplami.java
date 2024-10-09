@@ -19,7 +19,20 @@ public class C03_AradakiSayilarinToplami {
         int bitis = scanner.nextInt();
 
 
+        int toplam = 0;
 
+        if (bitis < baslangic){
+            System.out.println("Bitis degeri baslangic degerinden kucuk olamaz...");
+        } else {
+
+            for (int i = baslangic; i <= bitis ; i++) {
+
+                toplam += i;
+            }
+
+        }
+
+        System.out.println(baslangic + " ile "+ bitis + " sayilari dahil olarak aralarindaki tamsayilarin toplami : " + toplam);
 
     }
 

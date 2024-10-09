@@ -7,6 +7,7 @@ public class C02_DikkatEdilecekler {
 
         /*
          Eger ilk deger icin condition true vermezse loop body'si HIC CALISMAZ
+         For Loop calisti ama loop body devreye girmedi
          */
 
         for (int i = 10; i >100 ; i++) {
@@ -21,10 +22,11 @@ public class C02_DikkatEdilecekler {
          */
 
 
-//        for (int i = 10; i >0 ; i++) {
-//
-//            System.out.print(i + " ");
-//        }
+        for (int i = 10; i >0 ; i++) {
+
+            System.out.print(i + " ");
+
+        }
 
 
 

@@ -14,6 +14,21 @@ public class C06_RakamlarToplami {
         System.out.println("Rakamlar toplamini bulmak icin pozitif bir tamsayi giriniz...");
         int girilenSayi = scanner.nextInt();
 
+        int basamakSayisi = (girilenSayi+ "").length(); //  1453 + "" ==> "1453".length() ==> 4
+        int toplam = 0;
+        int sayi = girilenSayi;
+
+
+        for (int i = 1; i <=basamakSayisi ; i++) {
+
+            toplam += sayi % 10 ;
+            sayi /= 10;
+
+        }
+
+        System.out.println("Girilen " + girilenSayi + " sayisinin rakamlar toplami :  " +toplam);
+
+
 
 
 
@@ -21,3 +36,11 @@ public class C06_RakamlarToplami {
 
 
 }
+
+
+
+
+
+
+
+

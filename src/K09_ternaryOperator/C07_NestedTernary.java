@@ -1,4 +1,4 @@
-package K09_TernaryOperator;
+package K09_ternaryOperator;
 
 import java.util.Scanner;
 

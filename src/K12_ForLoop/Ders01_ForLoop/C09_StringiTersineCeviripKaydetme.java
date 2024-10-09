@@ -13,6 +13,27 @@ public class C09_StringiTersineCeviripKaydetme {
         String metin = scanner.nextLine();
 
 
+        String tersMetin = "";
+
+        for (int i = metin.length()-1; i >=0 ; i--) {
+
+             tersMetin += metin.charAt(i);
+        }
+
+
+        System.out.println("Verilen metnin tersten yazisilisi : " + tersMetin);
+
+
+        // Girilen metnin Palindrome olup olmadigini yazdirin
+        // Palindrome tersi kendisine esit olan metin    madam ==> madam
+
+
+        if (metin.equalsIgnoreCase(tersMetin)){
+            System.out.println("Girilen metin PALINDROME");
+        } else {
+            System.out.println("Girilen metin PALINDROME DEGIL");
+        }
+
 
     }
 }

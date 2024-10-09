@@ -22,6 +22,20 @@ public class C05_NestedForLoop {
         System.out.println("Lutfen satir sayisini giriniz...");
         int satir = scanner.nextInt();
 
+        for (int i = 1; i <=satir ; i++) { // Outer loop satirlari kontrol eder
+
+            for (int j = 1; j <= i ; j++) { // Inner loop her satirdaki sutunlari kontrol eder
+
+
+                System.out.print( j-1 + " ");
+
+
+            }
+
+            System.out.println("");
+
+        }
+
 
     }
 }

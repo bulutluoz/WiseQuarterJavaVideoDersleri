@@ -2,7 +2,7 @@ package K15_doWhileLoop;
 
 import java.util.Scanner;
 
-public class C06_DoWhileLoop {
+public class C04_DoWhileLoop {
     public static void main(String[] args) {
 
         // Soru 1- Kullanicidan baslangic ve bitis harflerini alip,

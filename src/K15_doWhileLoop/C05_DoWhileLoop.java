@@ -2,7 +2,7 @@ package K15_doWhileLoop;
 
 import java.util.Scanner;
 
-public class C07_DoWhileLoop {
+public class C05_DoWhileLoop {
 
     public static void main(String[] args) {
 

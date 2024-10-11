@@ -1,6 +1,6 @@
 package K15_doWhileLoop;
 
-public class C05_WhileVsDoWhile {
+public class C03_WhileVsDoWhile {
 
     public static void main(String[] args) {
 

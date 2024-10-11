@@ -1,6 +1,6 @@
 package K14_whileLoop;
 
-import K13_methodOlusturmaVeKullanma.Ders02_MethodOlusturmaOrnekSorular.C07_SifreKontrol;
+import K13_methodOlusturmaVeKullanma.D02_MethodOlusturmaOrnekSorular.C07_SifreKontrol;
 
 import java.util.Scanner;
 

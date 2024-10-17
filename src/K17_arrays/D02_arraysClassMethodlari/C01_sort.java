@@ -12,11 +12,11 @@ public class C01_sort {
 
         // array'i natural order'a gore duzenleyip (dogal siralama) yazdirin
 
-
         Arrays.sort(isimler);
 
         System.out.println(Arrays.toString(isimler));
-        //  [Mete, Metin, Mikail, Nevzat, Yaman, Yasar, metehan, yakup]
+
+        // [Mete, Metin, Mikail, Nevzat, Yaman, Yasar, metehan, yakup]
 
         /*
             NOT 1 : Natural order sayilar icin kucukten buyuge,
@@ -30,10 +30,6 @@ public class C01_sort {
         System.out.println(str.toUpperCase()); // JAVA CANDIR
 
         System.out.println(str); // Java Candir
-
-        str = str.toLowerCase();
-
-        System.out.println(str); // java candir
 
 
         /*

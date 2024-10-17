@@ -13,7 +13,7 @@ public class C02_binarySearch {
         // verilen arr'de a harfinin var olup olmadigini yazdirin
 
         C07_ElemanArama.elemanArama(harfler,"a"); // istenen harf array'de yok
-        C07_ElemanArama.elemanArama(harfler,"d"); // Istenen harf array'de 1 defa kullanilmis
+        C07_ElemanArama.elemanArama(harfler,"t"); // Istenen harf array'de 1 defa kullanilmis
 
 
         System.out.println(Arrays.binarySearch(harfler, "d")); // 0
@@ -36,6 +36,8 @@ public class C02_binarySearch {
          */
 
         Arrays.sort(harfler);
+
+        // eski siralama                               {"d","t","p","k","z"};
         System.out.println(Arrays.toString(harfler)); // [d, k, p, t, z]
 
         System.out.println(Arrays.binarySearch(harfler, "d")); // 0
@@ -45,6 +47,7 @@ public class C02_binarySearch {
         System.out.println(Arrays.binarySearch(harfler, "z")); // 4
         System.out.println(Arrays.binarySearch(harfler, "a")); // -1
         System.out.println(Arrays.binarySearch(harfler, "x")); // -5
+
 
         /*
             olmayan elementler icin index degil sira kullanilir

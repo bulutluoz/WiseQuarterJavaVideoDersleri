@@ -8,37 +8,48 @@ public class C04_ArrayeYeniDegerAtama {
 
         int[] sayilar = {3,5,10};
 
-        String[] isimler = {"Ali", "Hasan"};
+        String[] isimler = {"Kemal", "Hasan"};
 
         // sayilar array'ine 4.deger olarak 8 ekleyin
-        // sayilar[3] = 8; // ArrayIndexOutOfBoundsException
 
+        // sayilar[3] = 8;  // ArrayIndexOutOfBoundsException
 
 
         // isimler array'ine 3.deger olarak "Can" ekleyin
 
 
 
-        // sayilar array'ine {3, 5, 6, 8} array'ini atayin
-        // sayilar = {3, 5, 6, 8} ;
+        // sayilar array'ine {3, 5, 10, 8} array'ini atayin
 
-        int[] arr = {3, 5, 6, 8};
-        sayilar = arr;
+        // sayilar = {3, 5, 10, 8} ;
 
-        System.out.println("Sayilar array'inin son hali : " + Arrays.toString(sayilar)); // [3, 5, 6, 8]
+        int[] sayilarYeni = {3, 5, 10, 8};
+
+        sayilar = sayilarYeni;
+
+        System.out.println("sayilar array'inin son hali : "+ Arrays.toString(sayilar));
+        // sayilar array'inin son hali : [3, 5, 10, 8]
 
 
-        // isimler array'ine {"Ali", "Veli", "Can"} array'ini atayin
+        //  isimler = {"Ali", "Hasan"};
+        // isimler array'ine {"Ali", "Hasan", "Can"} array'ini atayin
 
-        String[] yeniArr = new String[3]; // [null, null, null]
-        yeniArr[0] = isimler[0];
-        yeniArr[1] = isimler[1];
-        yeniArr[2] = "Can";
+        String[] isimlerYeni = new String[isimler.length + 1  ]; // [null, null, null]
 
-        isimler = yeniArr;
+        isimlerYeni[0] = isimler[0]; // [Ali, null, null]
 
-        System.out.println("Isimler array'inin son hali : " + Arrays.toString(isimler));
-        // [Ali, Veli, Can]
+        isimlerYeni[1] = isimler[1];  // [Ali, Hasan, null]
+
+        isimlerYeni[2] = "Can";
+
+        isimler = isimlerYeni;
+
+        System.out.println("isimler array'inin son hali : "+ Arrays.toString(isimler));
+
+        //isimler array'inin son hali : [Ali, Hasan, Can]
+
+
+
 
 
 

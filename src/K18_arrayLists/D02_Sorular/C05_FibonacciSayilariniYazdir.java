@@ -13,17 +13,48 @@ public class C05_FibonacciSayilariniYazdir {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen fibonacci sayilarini yazdirmak icin ust sayi sinirini girin...");
-        int maxSayi = scanner.nextInt();
+        int maxSayi = scanner.nextInt(); // 1000
 
         List<Integer> fibonacciSerisi = new ArrayList<>();
 
+        if (maxSayi<0){
+            System.out.println("ust sinir negatif olamaz");
+        } else if (maxSayi == 0) {
+            fibonacciSerisi.add(0);
+        } else if ( maxSayi == 1) {
 
-   }
+            fibonacciSerisi.add(0);
+            fibonacciSerisi.add(1);
+            fibonacciSerisi.add(1);
+
+        }else{
+
+            fibonacciSerisi.add(0);
+            fibonacciSerisi.add(1);
+            fibonacciSerisi.add(1);
+
+            int i = 3;
+            int birOncekiEleman = fibonacciSerisi.get(i-1);
+            int ikiOncekiEleman = fibonacciSerisi.get(i-2);
+
+            while ( birOncekiEleman + ikiOncekiEleman <= maxSayi  ){
+
+                fibonacciSerisi.add(birOncekiEleman + ikiOncekiEleman);
+                i++;
+                birOncekiEleman = fibonacciSerisi.get(i-1);
+                ikiOncekiEleman = fibonacciSerisi.get(i-2);
 
 
-        // verilen pozitif bir tamsayiyi alip,
-        // o tamsayidan kucuk Fibonacci sayilarini
-        // bir liste olarak bize donduren bir method olusturun.
+            }
+
+        }
+
+
+        System.out.println(fibonacciSerisi);
+    }
+
+
+
 
 
 }

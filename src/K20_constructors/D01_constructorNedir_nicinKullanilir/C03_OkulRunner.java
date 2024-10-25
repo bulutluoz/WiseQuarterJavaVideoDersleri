@@ -25,7 +25,7 @@ public class C03_OkulRunner {
 
         C02_Okul ogrenci2;
 
-        // System.out.println(ogrenci2.ogrIsim);
+        //System.out.println(ogrenci2.ogrIsim);
         // bir obje icin constructor calismazsa
         // o obje olusturulup ilk deger atamasi (initialize) YAPILAMAZ
         // ogrenci2'ye deger atanmadigi icin
@@ -34,7 +34,7 @@ public class C03_OkulRunner {
 
         C02_Okul ogrenci3 = null;
 
-        // System.out.println(ogrenci3.ogrIsim); // NullPointerException
+        //System.out.println(ogrenci3.ogrIsim); // NullPointerException
 
 
 

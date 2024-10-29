@@ -13,14 +13,14 @@ public class C02 {
         this.sayi = sayi;
     }//C2
     C02(String isim){
-        System.out.println("int parametreli constructor calisti");
+        System.out.println("String parametreli constructor calisti");
         this.C02();
         this.isim=isim;
         sayi = 20;
     }//C3
     public static void main(String[] args) {
         C02 obj3 = new C02("Leyla");
-        //int parametreli constructor calisti
+        //String parametreli constructor calisti
         //parametresiz method calisti
         System.out.println(obj3.isim); // Leyla
         System.out.println(obj3.sayi); // 20

@@ -4,7 +4,10 @@ public class C04_KodOkuma {
 
     public static void main(String[] args) {
 
+        elemanYazdir("Ali",1,2,3,4); // 3
+        elemanYazdir("Kerim",3,5,7,8,1,0,3,4,5); // 1
 
+        islem(2,3,4,5,6,7,8,9);
     }
 
 

@@ -12,7 +12,7 @@ public class C03_StringPool {
         String t = "li"; // havuzda
         String str5 = s + t ; // havuzda degil
         String r = "ali"; // havuzda
-        String str6 = r.substring(0,1).toUpperCase()+ r.substring(1); // havuzda
+        String str6 = r.substring(0,1).toUpperCase()+ r.substring(1); // havuzda degil
         // "Ali"  havuzda
 
 

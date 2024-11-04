@@ -1,6 +1,7 @@
-package day31_accessModifier_Encapsulation.package2;
+package K27_accessModifiers.package2;
 
-import day31_accessModifier_Encapsulation.package1.Datalar;
+
+import K27_accessModifiers.package1.Datalar;
 
 public class FarkliPackageChildOlmayanClass {
 

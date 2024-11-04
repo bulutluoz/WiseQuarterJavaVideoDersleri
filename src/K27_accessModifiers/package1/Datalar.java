@@ -1,9 +1,9 @@
-package day31_accessModifier_Encapsulation.package1;
+package K27_accessModifiers.package1;
 
 public class Datalar {
 
     static private int sayiPrivate;
-    static String strDefaultAccMod;
+    static String strDefaultAccMod; // default access modifier
     static protected char chrProtected;
     static public double dblPublic;
 

@@ -1,13 +1,11 @@
-package day31_accessModifier_Encapsulation.package1;
-
-import javax.xml.crypto.Data;
+package K27_accessModifiers.package1;
 
 public class AyniPackageFarkliClass {
 
     public static void main(String[] args) {
 
-        // System.out.println(Datalar.sayiPrivate);
-        // Datalar.methodPrivate();
+        //System.out.println(Datalar.sayiPrivate);
+        //Datalar.methodPrivate();
 
         System.out.println(Datalar.strDefaultAccMod);
         Datalar.methodDefaultAccMod();

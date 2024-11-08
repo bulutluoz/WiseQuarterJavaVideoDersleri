@@ -1,6 +1,6 @@
-package K29_inheritance.D05_DataTypeKullanimi;
+package K29_inheritance.D06_overriding;
 
-public class C06_Hayvanlar {
+public class C01_Hayvanlar {
 
     public void hareket(){
         System.out.println("hareket ederler");

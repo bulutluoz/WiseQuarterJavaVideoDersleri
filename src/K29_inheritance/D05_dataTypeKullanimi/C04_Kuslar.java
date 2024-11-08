@@ -1,4 +1,4 @@
-package K29_inheritance.D05_DataTypeKullanimi;
+package K29_inheritance.D05_dataTypeKullanimi;
 
 public class C04_Kuslar extends C03_Hayvanlar{
 

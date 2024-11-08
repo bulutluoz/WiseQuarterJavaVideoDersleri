@@ -1,6 +1,6 @@
-package K29_inheritance.D05_DataTypeKullanimi;
+package K29_inheritance.D06_overriding;
 
-public class C07_Kuslar extends C06_Hayvanlar{
+public class C02_Kuslar extends C01_Hayvanlar {
 
     public void kanat(){System.out.println("kanatlidirlar");}
 

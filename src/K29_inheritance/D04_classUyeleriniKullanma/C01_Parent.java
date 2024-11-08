@@ -1,4 +1,4 @@
-package K29_inheritance.D04_ClassUyeleriniKullanma;
+package K29_inheritance.D04_classUyeleriniKullanma;
 
 public class C01_Parent {
 

@@ -1,4 +1,4 @@
-package K29_inheritance.D03_ConstructorCall;
+package K29_inheritance.D03_constructorCall;
 
 public class C03_Corsa extends C02_Opel {
 

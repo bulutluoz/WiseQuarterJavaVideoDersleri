@@ -1,4 +1,4 @@
-package K29_inheritance.D04_ClassUyeleriniKullanma;
+package K29_inheritance.D04_classUyeleriniKullanma;
 
 /*
     Java bir variable'in degerini bulmak icin

@@ -1,4 +1,4 @@
-package K29_inheritance.D05_DataTypeKullanimi;
+package K29_inheritance.D05_dataTypeKullanimi;
 
 public class C08_AvciKuslar extends C07_Kuslar{
 

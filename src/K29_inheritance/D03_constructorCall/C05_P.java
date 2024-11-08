@@ -1,4 +1,4 @@
-package K29_inheritance.D03_ConstructorCall;
+package K29_inheritance.D03_constructorCall;
 
 public class C05_P extends C04_GP {
 

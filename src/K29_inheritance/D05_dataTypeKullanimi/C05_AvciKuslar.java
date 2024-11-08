@@ -1,4 +1,4 @@
-package K29_inheritance.D05_DataTypeKullanimi;
+package K29_inheritance.D05_dataTypeKullanimi;
 
 import java.util.ArrayList;
 

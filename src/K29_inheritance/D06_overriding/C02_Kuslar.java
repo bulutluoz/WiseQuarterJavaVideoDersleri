@@ -12,3 +12,5 @@ public class C02_Kuslar extends C01_Hayvanlar {
 }
 
 
+
+

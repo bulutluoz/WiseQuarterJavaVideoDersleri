@@ -20,14 +20,24 @@ public class C03_AvciKuslar extends C02_Kuslar {
 
     public static void main(String[] args) {
 
+        C03_AvciKuslar avciKartal = new C03_AvciKuslar();
+        avciKartal.hareket(); // A Ucarlar
 
-
-
-
+        C02_Kuslar kusKartal = new C03_AvciKuslar();
+        kusKartal.hareket(); // A Ucarlar
     }
 
 
 }
+
+
+
+
+
+
+
+
+
 
 
 

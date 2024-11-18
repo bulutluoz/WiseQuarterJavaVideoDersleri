@@ -12,7 +12,7 @@ public class C04_DahaKapsamliTekTryCatch {
         // eger kullanici index'den buyuk sayi girerse
         // hata mesaji ve son index'i yazdirin
 
-        int index = 6;
+        int index = 16;
 
         if (index < 0 ){
             System.out.println("Index negatif olmamalidir");
@@ -31,9 +31,16 @@ public class C04_DahaKapsamliTekTryCatch {
              */
 
 
+            try {
 
                 System.out.println(arr[index]);
                 System.out.println(str.charAt(index));
+
+            }catch (Exception e){
+                System.out.println("Index sinirlarin disinda. String icin son index : " + (str.length()-1)
+                        + ", array icin son index : " + (arr.length-1));
+            }
+
 
 
 

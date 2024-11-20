@@ -22,7 +22,22 @@ public class C04_BelirliElementleriSilme {
 
         System.out.println(isimler); // [Cem, Furkan, Murat, Ridvan, Sabri]
 
-        String istenmeyenHarf = "e";
+        String istenmeyenHarf = "a";
+
+
+        Iterator itr = isimler.iterator();
+
+        while (itr.hasNext()){
+
+            if (   ((String)itr.next()).contains(istenmeyenHarf) ){
+                itr.remove();
+            }
+        }
+
+
+
+
+        System.out.println("isimler listesinin son hali : " + isimler);
 
 
     }

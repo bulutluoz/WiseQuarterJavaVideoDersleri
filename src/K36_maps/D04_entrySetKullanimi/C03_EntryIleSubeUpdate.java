@@ -1,15 +1,18 @@
-package K36_maps.D04_EntrySetKullanimi;
+package K36_maps.D04_entrySetKullanimi;
 
-import K36_maps.D02_BilgilereUlasmaVeListeleme.OgrenciMap;
+
+import K36_maps.D02_bilgilereUlasmaVeListeleme.OgrenciMap;
 
 import java.util.Map;
 import java.util.Set;
 
-public class C04_EntryIleSoyisimGuncelle extends OgrenciMap {
+public class C03_EntryIleSubeUpdate extends OgrenciMap {
 
     public static void main(String[] args) {
 
-        // Tum ogrencilerin soyisimlerini buyuk harf yapin
+        // Entry kullanarak, 11/M sinifindaki ogrencileri
+        // 11/T olarak guncelleyin
+        System.out.println(ogrenciMap);
 
         // 1.adim EntrySet olustur
         Set<Map.Entry<Integer, String>> ogrenciEntrySeti = ogrenciMap.entrySet();
@@ -25,9 +28,12 @@ public class C04_EntryIleSoyisimGuncelle extends OgrenciMap {
             String[] eachValueArr = eachvalue.split("-");
 
             //5.adim istenen kontrolleri yapip, istenen bilgileri update edin
-            //       Tum ogrencilerin soyisimlerini buyuk harf yapin
+            // 11/M sinifindaki ogrencileri
+            // 11/T olarak guncelleyin
 
-            eachValueArr[1] = eachValueArr[1].toUpperCase();
+            if (eachValueArr[2].equalsIgnoreCase("11") && eachValueArr[3].equalsIgnoreCase("M")){
+                eachValueArr[3] = "T";
+            }
 
             //6.adim array'de yaptigimiz degisikligi map'de update yapabilmek icin
             //       array'i yeniValue olarak birlestirelim
@@ -36,6 +42,5 @@ public class C04_EntryIleSoyisimGuncelle extends OgrenciMap {
         }
 
         System.out.println(ogrenciMap);
-
     }
 }

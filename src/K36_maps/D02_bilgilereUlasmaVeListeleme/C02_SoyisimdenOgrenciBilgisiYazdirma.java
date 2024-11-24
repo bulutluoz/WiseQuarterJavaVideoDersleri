@@ -1,4 +1,4 @@
-package K36_maps.D02_BilgilereUlasmaVeListeleme;
+package K36_maps.D02_bilgilereUlasmaVeListeleme;
 
 import java.util.Collection;
 

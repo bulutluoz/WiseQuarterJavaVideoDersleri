@@ -1,4 +1,4 @@
-package K36_maps.D05_NestedMapOlusturma;
+package K36_maps.D05_nestedMapOlusturma;
 
 import java.util.ArrayList;
 import java.util.Arrays;

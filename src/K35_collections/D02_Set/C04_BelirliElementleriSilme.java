@@ -34,9 +34,6 @@ public class C04_BelirliElementleriSilme {
             }
         }
 
-
-
-
         System.out.println("isimler listesinin son hali : " + isimler);
 
 

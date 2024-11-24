@@ -1,7 +1,7 @@
-package K36_maps.D04_EntrySetKullanimi;
+package K36_maps.D04_entrySetKullanimi;
 
 
-import K36_maps.D02_BilgilereUlasmaVeListeleme.OgrenciMap;
+import K36_maps.D02_bilgilereUlasmaVeListeleme.OgrenciMap;
 
 import java.util.Map;
 import java.util.Set;

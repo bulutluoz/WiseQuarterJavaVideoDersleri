@@ -1,6 +1,5 @@
-package K36_maps.D02_BilgilereUlasmaVeListeleme;
+package K36_maps.D02_bilgilereUlasmaVeListeleme;
 
-import java.util.Map;
 import java.util.Set;
 
 public class C04_IsimIleOgrenciArama extends OgrenciMap{

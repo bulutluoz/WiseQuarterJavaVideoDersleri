@@ -1,7 +1,7 @@
-package K36_maps.D03_BilgiUpdate;
+package K36_maps.D03_bilgiUpdate;
 
 
-import K36_maps.D02_BilgilereUlasmaVeListeleme.OgrenciMap;
+import K36_maps.D02_bilgilereUlasmaVeListeleme.OgrenciMap;
 
 import java.util.Set;
 

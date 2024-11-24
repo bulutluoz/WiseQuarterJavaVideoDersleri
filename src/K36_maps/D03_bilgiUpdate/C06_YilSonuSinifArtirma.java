@@ -1,8 +1,6 @@
-package K36_maps.D03_BilgiUpdate;
+package K36_maps.D03_bilgiUpdate;
 
-import K36_maps.D02_BilgilereUlasmaVeListeleme.OgrenciMap;
-
-import java.util.Set;
+import K36_maps.D02_bilgilereUlasmaVeListeleme.OgrenciMap;
 
 public class C06_YilSonuSinifArtirma extends OgrenciMap {
 

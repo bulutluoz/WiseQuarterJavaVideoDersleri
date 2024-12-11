@@ -29,10 +29,10 @@ public class C03_AradakiSayilarinToplami {
 
                 toplam += i;
             }
+            System.out.println(baslangic + " ile "+ bitis + " sayilari dahil olarak aralarindaki tamsayilarin toplami : " + toplam);
 
         }
 
-        System.out.println(baslangic + " ile "+ bitis + " sayilari dahil olarak aralarindaki tamsayilarin toplami : " + toplam);
 
     }
 
